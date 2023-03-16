@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: install ssh keys
+    - name: teste
       run: echo "teste-echo2"
