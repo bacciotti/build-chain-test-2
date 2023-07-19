@@ -8,7 +8,7 @@ default:
     downstream: echo 'build-command --> downstream!'
     after:
       upstream: echo 'AFTER>>!'
- build: 
+build: 
    - project:bacciotti/build-chain-test-1
     build-command:
       upstream: echo 'build-command --> upstream---->!'
