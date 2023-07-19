@@ -9,7 +9,7 @@ default:
     after:
       upstream: echo 'AFTER>>!'
 build: 
-   - project:bacciotti/build-chain-test-1
+  - project: bacciotti/build-chain-test-1
     build-command:
       upstream: echo 'build-command --> upstream---->!'
       current: echo 'build-command --> current---->!'
